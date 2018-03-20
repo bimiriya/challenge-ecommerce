@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Products from './components/Products'
 
-const App = ({ message }) => <div>{ message }</div>;
 
-ReactDOM.render(<App message="hello world" />, document.getElementById('app'));
+ReactDOM.render(<Products />, document.getElementById('app'));
